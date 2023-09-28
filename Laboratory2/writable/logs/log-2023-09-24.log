@@ -1,0 +1,785 @@
+CRITICAL - 2023-09-24 03:38:00 --> Class "App\Controllers\MainModel" not found
+in APPPATH\Controllers\MainController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 03:38:37 --> Class "App\Controllers\MainModel" not found
+in APPPATH\Controllers\MainController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 03:38:57 --> Undefined variable $data
+in APPPATH\Controllers\MainController.php on line 12.
+ 1 APPPATH\Controllers\MainController.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 04:21:07 --> Undefined variable $musicTracks
+in APPPATH\Views\index.php on line 95.
+ 1 APPPATH\Views\index.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicTracks', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 95)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(11): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 08:11:59 --> Undefined variable $musicData
+in APPPATH\Views\index.php on line 161.
+ 1 APPPATH\Views\index.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $musicData', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 161)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(60): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 08:15:44 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 157.
+ 1 APPPATH\Views\index.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 157)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(60): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 08:16:26 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 157.
+ 1 APPPATH\Views\index.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 157)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(51): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 08:17:04 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 157.
+ 1 APPPATH\Views\index.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 157)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(51): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 08:19:58 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 157.
+ 1 APPPATH\Views\index.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 157)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(51): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 08:22:48 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 157.
+ 1 APPPATH\Views\index.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 157)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(51): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 08:24:50 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 157.
+ 1 APPPATH\Views\index.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 157)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(51): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 08:25:04 --> Undefined variable $songs
+in APPPATH\Views\index.php on line 157.
+ 1 APPPATH\Views\index.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $songs', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 157)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(51): view('index')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+ERROR - 2023-09-24 09:09:21 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'laboratory2', 3306, '', 0)
+#1 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\Laboratory2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\laragon\www\Laboratory2\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\Laboratory2\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\Laboratory2\app\Controllers\MainController.php(52): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\Laboratory2\system\CodeIgniter.php(919): App\Controllers\MainController->test()
+#8 D:\laragon\www\Laboratory2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 D:\laragon\www\Laboratory2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\Laboratory2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\Laboratory2\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\Laboratory2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\laragon\www\Laboratory2\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\Laboratory2\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\laragon\www\Laboratory2\app\Controllers\MainController.php(52): CodeIgniter\BaseModel->findAll()
+#6 D:\laragon\www\Laboratory2\system\CodeIgniter.php(919): App\Controllers\MainController->test()
+#7 D:\laragon\www\Laboratory2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#8 D:\laragon\www\Laboratory2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\Laboratory2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\Laboratory2\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-09-24 09:09:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `music_tracks`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\MainController.php(52): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 09:19:54 --> Undefined variable $data
+in APPPATH\Controllers\MainController.php on line 48.
+ 1 APPPATH\Controllers\MainController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 11:51:09 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 124.
+ 1 APPPATH\Views\index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 124)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 11:55:32 --> Class "App\Controllers\PlaylistModel" not found
+in APPPATH\Controllers\MainController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\MainController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 11:55:53 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 124.
+ 1 APPPATH\Views\index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 124)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(65): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 11:57:40 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 124.
+ 1 APPPATH\Views\index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 124)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:01:13 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 124.
+ 1 APPPATH\Views\index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 124)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:14:42 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 124.
+ 1 APPPATH\Views\index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 124)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:15:47 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 124.
+ 1 APPPATH\Views\index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 124)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:15:54 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 124.
+ 1 APPPATH\Views\index.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 124)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:20:44 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:22:04 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:25:34 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(64): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:28:30 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(64): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:31:49 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(65): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:32:10 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(65): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:33:21 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(65): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:36:06 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(65): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:37:02 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(64): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:37:49 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(64): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:40:15 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:40:34 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:41:51 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:44:00 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(61): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:47:25 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(54): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:49:00 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(65): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:52:35 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(64): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 12:53:19 --> Undefined variable $playlists
+in APPPATH\Views\index.php on line 103.
+ 1 APPPATH\Views\index.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(64): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 13:17:03 --> Class "App\Controllers\PlaylistModel" not found
+in APPPATH\Controllers\MainController.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 13:17:34 --> Class "App\Controllers\PlaylistModel" not found
+in APPPATH\Controllers\MainController.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:08:49 --> Too few arguments to function App\Controllers\MainController::addToPlaylist(), 0 passed in D:\laragon\www\Laboratory2\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\MainController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:09:47 --> Too few arguments to function App\Controllers\MainController::addToPlaylist(), 0 passed in D:\laragon\www\Laboratory2\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\MainController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:10:41 --> Too few arguments to function App\Controllers\MainController::addToPlaylist(), 0 passed in D:\laragon\www\Laboratory2\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\MainController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:11:38 --> Too few arguments to function App\Controllers\MainController::addToPlaylist(), 0 passed in D:\laragon\www\Laboratory2\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\MainController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:13:09 --> Too few arguments to function App\Controllers\MainController::addToPlaylist(), 0 passed in D:\laragon\www\Laboratory2\system\CodeIgniter.php on line 919 and exactly 2 expected
+in APPPATH\Controllers\MainController.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:13:10 --> Undefined variable $playlistId
+in APPPATH\Views\index.php on line 274.
+ 1 APPPATH\Views\index.php(274): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 274)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(92): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:13:13 --> Undefined variable $playlistId
+in APPPATH\Views\index.php on line 274.
+ 1 APPPATH\Views\index.php(274): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 274)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(92): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:15:06 --> Undefined variable $playlistId
+in APPPATH\Views\index.php on line 264.
+ 1 APPPATH\Views\index.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(92): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:16:23 --> Undefined variable $playlistId
+in APPPATH\Controllers\MainController.php on line 91.
+ 1 APPPATH\Controllers\MainController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:18:07 --> Undefined variable $playlistId
+in APPPATH\Controllers\MainController.php on line 91.
+ 1 APPPATH\Controllers\MainController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:18:16 --> Undefined variable $playlistId
+in APPPATH\Controllers\MainController.php on line 91.
+ 1 APPPATH\Controllers\MainController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:19:12 --> Undefined variable $playlistId
+in APPPATH\Controllers\MainController.php on line 91.
+ 1 APPPATH\Controllers\MainController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:21:36 --> Undefined variable $playlistId
+in APPPATH\Controllers\MainController.php on line 91.
+ 1 APPPATH\Controllers\MainController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:22:19 --> Undefined variable $playlist_Id
+in APPPATH\Controllers\MainController.php on line 91.
+ 1 APPPATH\Controllers\MainController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlist_Id', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:22:31 --> Undefined variable $trackId
+in APPPATH\Controllers\MainController.php on line 91.
+ 1 APPPATH\Controllers\MainController.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $trackId', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 91)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:22:38 --> Undefined variable $playlistId
+in APPPATH\Views\index.php on line 269.
+ 1 APPPATH\Views\index.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 269)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(92): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:22:50 --> Undefined variable $playlistId
+in APPPATH\Views\index.php on line 264.
+ 1 APPPATH\Views\index.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 264)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(92): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:24:15 --> Undefined variable $playlistId
+in APPPATH\Controllers\MainController.php on line 92.
+ 1 APPPATH\Controllers\MainController.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:25:43 --> Undefined variable $playlistId
+in APPPATH\Controllers\MainController.php on line 92.
+ 1 APPPATH\Controllers\MainController.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:25:44 --> Undefined variable $playlistId
+in APPPATH\Controllers\MainController.php on line 92.
+ 1 APPPATH\Controllers\MainController.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:25:45 --> Undefined variable $playlistId
+in APPPATH\Controllers\MainController.php on line 92.
+ 1 APPPATH\Controllers\MainController.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:25:45 --> Undefined variable $playlistId
+in APPPATH\Controllers\MainController.php on line 92.
+ 1 APPPATH\Controllers\MainController.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:28:07 --> Undefined variable $playlistId
+in APPPATH\Controllers\MainController.php on line 14.
+ 1 APPPATH\Controllers\MainController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlistId', 'D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php', 14)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist('1', '2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:29:00 --> Call to a member function songs() on array
+in APPPATH\Controllers\MainController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist('1', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:38:08 --> Class "App\Controllers\Playlist" not found
+in APPPATH\Controllers\MainController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist('1', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:40:08 --> Class "App\Controllers\Playlist" not found
+in APPPATH\Controllers\MainController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist('1', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:40:28 --> Non-static method CodeIgniter\BaseModel::find() cannot be called statically
+in APPPATH\Controllers\MainController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist('1', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:41:04 --> Non-static method CodeIgniter\BaseModel::find() cannot be called statically
+in APPPATH\Controllers\MainController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist('1', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:41:49 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\MainController.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MainController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:41:49 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\MainController.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MainController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:46:20 --> Non-static method CodeIgniter\BaseModel::find() cannot be called statically
+in APPPATH\Controllers\MainController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist('1', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:47:45 --> Call to a member function tracks() on array
+in APPPATH\Controllers\MainController.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist('1', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:50:17 --> Non-static method CodeIgniter\BaseModel::find() cannot be called statically
+in APPPATH\Controllers\MainController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist('1', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-24 14:51:34 --> Class "App\Controllers\MusicTrack" not found
+in APPPATH\Controllers\MainController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->addToPlaylist('1', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')

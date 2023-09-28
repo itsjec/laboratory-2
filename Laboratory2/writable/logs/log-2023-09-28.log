@@ -1,0 +1,288 @@
+ERROR - 2023-09-28 00:38:26 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'laboratory2', 3306, '', 0)
+#1 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\Laboratory2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_t...', Array, false)
+#4 D:\laragon\www\Laboratory2\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\Laboratory2\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\Laboratory2\app\Controllers\MainController.php(169): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\Laboratory2\system\CodeIgniter.php(919): App\Controllers\MainController->test()
+#8 D:\laragon\www\Laboratory2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 D:\laragon\www\Laboratory2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\Laboratory2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\Laboratory2\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\Laboratory2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_t...', Array, false)
+#3 D:\laragon\www\Laboratory2\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\Laboratory2\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\laragon\www\Laboratory2\app\Controllers\MainController.php(169): CodeIgniter\BaseModel->findAll()
+#6 D:\laragon\www\Laboratory2\system\CodeIgniter.php(919): App\Controllers\MainController->test()
+#7 D:\laragon\www\Laboratory2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#8 D:\laragon\www\Laboratory2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\Laboratory2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\Laboratory2\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-09-28 00:38:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_tracks`.*, `playlists`.`name` AS `playlist_name`
+FROM `music_tracks`
+LEFT JOIN `playlists` ON `playlists`.`id` = `music_tracks`.`playlist_id`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\MainController.php(169): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+ERROR - 2023-09-28 06:21:11 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'laboratory2', 3306, '', 0)
+#1 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\laragon\www\Laboratory2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_t...', Array, false)
+#4 D:\laragon\www\Laboratory2\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\Laboratory2\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\Laboratory2\app\Controllers\MainController.php(169): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\Laboratory2\system\CodeIgniter.php(919): App\Controllers\MainController->test()
+#8 D:\laragon\www\Laboratory2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 D:\laragon\www\Laboratory2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\Laboratory2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\Laboratory2\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\laragon\www\Laboratory2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_t...', Array, false)
+#3 D:\laragon\www\Laboratory2\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\laragon\www\Laboratory2\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\laragon\www\Laboratory2\app\Controllers\MainController.php(169): CodeIgniter\BaseModel->findAll()
+#6 D:\laragon\www\Laboratory2\system\CodeIgniter.php(919): App\Controllers\MainController->test()
+#7 D:\laragon\www\Laboratory2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#8 D:\laragon\www\Laboratory2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\laragon\www\Laboratory2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 D:\laragon\www\Laboratory2\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#11 {main}
+CRITICAL - 2023-09-28 06:21:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_tracks`.*, `playlists`.`name` AS `playlist_name`
+FROM `music_tracks`
+LEFT JOIN `playlists` ON `playlists`.`id` = `music_tracks`.`playlist_id`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\MainController.php(169): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-28 06:27:42 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\MainController.php on line 159.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\laragon\\www\\Laboratory2\\app\\Controllers\\MainController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MainController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-28 07:47:31 --> Undefined variable $song
+in APPPATH\Views\index.php on line 146.
+ 1 APPPATH\Views\index.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $song', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 146)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(174): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-28 07:48:19 --> Undefined variable $song
+in APPPATH\Views\index.php on line 146.
+ 1 APPPATH\Views\index.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $song', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 146)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(171): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-28 07:51:41 --> Undefined array key "track_id"
+in APPPATH\Views\index.php on line 195.
+ 1 APPPATH\Views\index.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "track_id"', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 195)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(171): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+CRITICAL - 2023-09-28 07:52:09 --> Undefined array key "track_id"
+in APPPATH\Views\index.php on line 195.
+ 1 APPPATH\Views\index.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "track_id"', 'D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php', 195)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\laragon\\www\\Laboratory2\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\MainController.php(171): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+ERROR - 2023-09-28 10:26:14 --> mysqli_sql_exception: Unknown column 'music_tracks.playlist_id' in 'on clause' in D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `music_t...', 0)
+#1 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `music_t...')
+#2 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `music_t...')
+#3 D:\laragon\www\Laboratory2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_t...', Array, false)
+#4 D:\laragon\www\Laboratory2\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\Laboratory2\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\Laboratory2\app\Controllers\MainController.php(179): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\Laboratory2\system\CodeIgniter.php(919): App\Controllers\MainController->test()
+#8 D:\laragon\www\Laboratory2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 D:\laragon\www\Laboratory2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\Laboratory2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\Laboratory2\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-28 10:26:14 --> Unknown column 'music_tracks.playlist_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_tracks`.*, `playlists`.`name` AS `playlist_name`
+FROM `music_tracks`
+LEFT JOIN `playlists` ON `playlists`.`id` = `music_tracks`.`playlist_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(179): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+ERROR - 2023-09-28 10:26:14 --> mysqli_sql_exception: Unknown column 'music_tracks.playlist_id' in 'on clause' in D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `music_t...', 0)
+#1 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `music_t...')
+#2 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `music_t...')
+#3 D:\laragon\www\Laboratory2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_t...', Array, false)
+#4 D:\laragon\www\Laboratory2\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\Laboratory2\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\Laboratory2\app\Controllers\MainController.php(179): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\Laboratory2\system\CodeIgniter.php(919): App\Controllers\MainController->test()
+#8 D:\laragon\www\Laboratory2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 D:\laragon\www\Laboratory2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\Laboratory2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\Laboratory2\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-28 10:26:14 --> Unknown column 'music_tracks.playlist_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_tracks`.*, `playlists`.`name` AS `playlist_name`
+FROM `music_tracks`
+LEFT JOIN `playlists` ON `playlists`.`id` = `music_tracks`.`playlist_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(179): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+ERROR - 2023-09-28 10:27:37 --> mysqli_sql_exception: Unknown column 'music_tracks.playlist_id' in 'on clause' in D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `music_t...', 0)
+#1 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `music_t...')
+#2 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `music_t...')
+#3 D:\laragon\www\Laboratory2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_t...', Array, false)
+#4 D:\laragon\www\Laboratory2\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\Laboratory2\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\Laboratory2\app\Controllers\MainController.php(179): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\Laboratory2\system\CodeIgniter.php(919): App\Controllers\MainController->test()
+#8 D:\laragon\www\Laboratory2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 D:\laragon\www\Laboratory2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\Laboratory2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\Laboratory2\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-28 10:27:37 --> Unknown column 'music_tracks.playlist_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_tracks`.*, `playlists`.`name` AS `playlist_name`
+FROM `music_tracks`
+LEFT JOIN `playlists` ON `playlists`.`id` = `music_tracks`.`playlist_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(179): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+ERROR - 2023-09-28 10:28:32 --> mysqli_sql_exception: Unknown column 'music_tracks.playlist_id' in 'on clause' in D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `music_t...', 0)
+#1 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `music_t...')
+#2 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `music_t...')
+#3 D:\laragon\www\Laboratory2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_t...', Array, false)
+#4 D:\laragon\www\Laboratory2\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\Laboratory2\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\Laboratory2\app\Controllers\MainController.php(179): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\Laboratory2\system\CodeIgniter.php(919): App\Controllers\MainController->test()
+#8 D:\laragon\www\Laboratory2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 D:\laragon\www\Laboratory2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\Laboratory2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\Laboratory2\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-28 10:28:32 --> Unknown column 'music_tracks.playlist_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_tracks`.*, `playlists`.`name` AS `playlist_name`
+FROM `music_tracks`
+LEFT JOIN `playlists` ON `playlists`.`id` = `music_tracks`.`playlist_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(179): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
+ERROR - 2023-09-28 10:41:49 --> mysqli_sql_exception: Unknown column 'music_tracks.playlist_id' in 'on clause' in D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\laragon\www\Laboratory2\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `music_t...', 0)
+#1 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `music_t...')
+#2 D:\laragon\www\Laboratory2\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `music_t...')
+#3 D:\laragon\www\Laboratory2\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_t...', Array, false)
+#4 D:\laragon\www\Laboratory2\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\laragon\www\Laboratory2\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\laragon\www\Laboratory2\app\Controllers\MainController.php(172): CodeIgniter\BaseModel->findAll()
+#7 D:\laragon\www\Laboratory2\system\CodeIgniter.php(919): App\Controllers\MainController->test()
+#8 D:\laragon\www\Laboratory2\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 D:\laragon\www\Laboratory2\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\laragon\www\Laboratory2\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\laragon\www\Laboratory2\system\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-28 10:41:49 --> Unknown column 'music_tracks.playlist_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `music_tracks`.*, `playlists`.`name` AS `playlist_name`
+FROM `music_tracks`
+LEFT JOIN `playlists` ON `playlists`.`id` = `music_tracks`.`playlist_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\MainController.php(172): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->test()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\laragon\\www\\Laboratory2\\public\\index.php')
