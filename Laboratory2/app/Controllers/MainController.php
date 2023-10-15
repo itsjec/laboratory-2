@@ -21,62 +21,33 @@ class MainController extends BaseController
         $this->playlistModel = new PlaylistModel(); // Initialize the PlaylistModel
     }
 
-    public function index()
+    public function addToPlaylist()
     {
-        $data = [
-            'songs' => $this->musicModel->findAll(), // Use the MusicModel
-            'playlists' => $this->playlistModel->findAll(), // Use the PlaylistModel
-        ];
-
-        return view('index', $data);
-    }
-
-public function addToPlaylist()
-{
-    // Get the selected track ID from the form submission
-    $trackId = $this->request->getPost('trackID');
-
-    // Validate the input data
-    if (empty($trackId)) {
-        return redirect()->to('/test')->with('error', 'Invalid input data');
-    }
-
-    // Get the selected playlist ID from the form submission
-    $playlistId = $this->request->getPost('playlistID');
-
-    // Check if a record with the same track_id and playlist_id exists in the playlist_tracks table
-    $playlistTrackModel = new PlaylistTrackModel();
-    $existingRecord = $playlistTrackModel
-        ->where('track_id', $trackId)
-        ->where('playlist_id', $playlistId)
-        ->first();
-
-    if (!$existingRecord) {
-        // If no record exists, create a new record in the playlist_tracks table
+        $playlistTrackModel = new PlaylistTrackModel(); 
+        $trackId = $this->request->getPost('musicID');
+        $playlistId = $this->request->getPost('playlistID');
+    
         $data = [
             'track_id' => $trackId,
             'playlist_id' => $playlistId,
         ];
-        $playlistTrackModel->insert($data);
-    }
-
-    // Redirect back to the page with a success message
-    return redirect()->to('/test')->with('success', 'Track added to the playlist successfully.');
-}
-
     
+        $playlistTrackModel->save($data); 
     
-    public function removeFromPlaylist($trackID)
-    {
-        // Load the database service
-        $db = db_connect();
-
-        // Delete the record from the playlist_tracks table
-        $db->table('playlist_tracks')->where('track_id', $trackID)->delete();
-
-        // Redirect back to the page
         return redirect()->to('/');
     }
+    
+    
+
+    public function index()
+    {
+        $data = [
+            'songs' => $this->musicModel->findAll(),
+            'playlists' => $this->playlistModel->findAll(),
+        ];
+    
+        return view('index', $data);
+    }    
 
     public function search()
     {

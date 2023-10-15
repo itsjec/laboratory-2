@@ -175,12 +175,16 @@
             </div>
         </div>
 
-
-
     <!-- Table -->
     <table class="table">
         <thead>
-            <!-- ... Table headers ... -->
+            <tr>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>File Path</th>
+                <th>Playlist</th>
+                <th>Actions</th>
+            </tr>
         </thead>
         <tbody>
             <?php foreach ($songs as $song): ?>
@@ -189,50 +193,68 @@
                     <td><?= $song['artist'] ?></td>
                     <td><?= $song['file_path'] ?></td>
                     <td>
-                        <!-- Add Music to Playlist button -->
-                        <button class="btn btn-sm btn-primary add-music-to-playlist-button" data-song-id="<?= $song['id'] ?>" data-toggle="modal" data-target="#addToPlaylistModal">
-                            Add Music to Playlist
-                        </button>
-                        <!-- Remove button -->
-                        <button class="btn btn-sm btn-danger" data-toggle="modal" data-target="#removeFromPlaylistModal<?= $song['id'] ?>">
-                            Remove
-                        </button>
-
+                        <!-- Check if the song is in any playlists -->
+                        <?php if (!empty($song['playlists'])): ?>
+                            <ul>
+                                <?php foreach ($song['playlists'] as $playlist): ?>
+                                    <li><?= $playlist['name'] ?></li>
+                                <?php endforeach; ?>
+                            </ul>
+                        <?php else: ?>
+                            Not in any playlist
+                        <?php endif; ?>
+                    </td>
+                    <td>
+                        <?php if (empty($song['playlists'])): ?>
+                            <button class="btn btn-primary add-to-playlist-button" data-song-id="<?= $song['id'] ?>" data-toggle="modal" data-target="#addToPlaylistModal">Add to Playlist</button>
+                        <?php else: ?>
+                            <button class="btn btn-danger">Remove from Playlist</button>
+                        <?php endif; ?>
                         <!-- Play button -->
                         <button class="play-button" data-song="<?= $song['file_path'] ?>" style="background-color: transparent; border: none; outline: none;">
                             <i class="fas fa-play" style="color: blue; font-size: 20px;"></i>
                         </button>
                     </td>
                 </tr>
-
-                <!-- Remove Music from Playlist Modal -->
-                <div class="modal fade" id="removeFromPlaylistModal<?= $song['id'] ?>" tabindex="-1" aria-labelledby="removeFromPlaylistModalLabel<?= $song['id'] ?>" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <!-- Modal Header -->
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="removeFromPlaylistModalLabel<?= $song['id'] ?>">Remove Music from Playlist</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-
-                            <!-- Modal Body -->
-                            <div class="modal-body">
-                                <!-- Confirmation message -->
-                                Are you sure you want to remove this music from the playlist?
-                            </div>
-
-                            <!-- Modal Footer -->
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                                <a href="/removeFromPlaylist/<?= $song['id'] ?>" class="btn btn-danger">Remove</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             <?php endforeach; ?>
         </tbody>
     </table>
 
+    <!--AddtoPlaylist-->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Select from playlist</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="/addToPlaylist" method="post">
+                        <!-- <p id="modalData"></p> -->
+                        <input type="hidden" id="musicID" name="musicID">
+                        <select name="playlistID" class="form-control">
+                            <?php foreach ($playlists as $playlist): ?>
+                                <option value="<?= $playlist['id'] ?>">
+                                    <?= $playlist['name'] ?>
+                                </option>
+                            <?php endforeach; ?>
+                        </select>
+                        <input class="btn btn-primary mt-2 d-flex" type="submit" name="Add">
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <!-- Existing Playlists Modal -->
     <div class="modal fade" id="existingPlaylistsModal" tabindex="-1" aria-labelledby="existingPlaylistsModalLabel" aria-hidden="true">
@@ -240,13 +262,13 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="existingPlaylistsModalLabel">Existing Playlists</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
                 <div class="modal-body">
                     <!-- List of existing playlists -->
-                    <?php foreach($playlists as $playlist): ?>
+                    <?php foreach ($playlists as $playlist): ?>
                         <br>
-                        <a href="playlist/<?= $playlist['id'] ?>"><?= $playlist['name'] ?></a>
+                        <a href="/showPlaylist/<?= $playlist['id'] ?>" class="existing-playlist-link" data-playlist-id="<?= $playlist['id'] ?>"><?= $playlist['name'] ?></a>
                         <br>
                     <?php endforeach; ?>
                     <!-- Create New Playlist Button -->
@@ -278,6 +300,43 @@
         </div>
     </div>
 
+    <!--Add to Playlist-->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Select from playlist</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="/addToPlaylist2" method="post">
+                        <!-- <p id="modalData"></p> -->
+                        <input type="hidden" id="musicID" name="musicID">
+                        <select  name="playlist" class="form-control" >
+                        <?php foreach ($playlists as $playlist): ?>
+                            <?php if (isset($playlist['playlist_id'])): ?>
+                                <option value="<?= $playlist['playlist_id'] ?>">
+                                    <?= $playlist['PlaylistName'] ?>
+                                </option>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                        </select>
+                        <input class="btn btn-primary mt-2 d-flex" type="submit" name="Add">
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <!-- Bootstrap JavaScript (include only one version) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -286,6 +345,22 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- jQuery script -->
     <!-- JavaScript for setting the track_id when the "Add to playlist" button is clicked -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Listen for clicks on the "Add to Playlist" button
+            $('.add-to-playlist-button').click(function () {
+                // Get the song ID from the data attribute
+                var trackId = $(this).data('id');
+
+                // Set the song ID in the hidden input field
+                $('#musicID').val(trackId);
+
+                // Open the modal
+                $('#addToPlaylistModal').modal('show');
+            });
+        });
+    </script>
     <script>
         $(document).ready(function() {
             // Add a click event listener to the "Add to Playlist" button
